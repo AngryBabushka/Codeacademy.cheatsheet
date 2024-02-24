@@ -10,4 +10,113 @@
     text-decoration: none;
   }
 
+  .content {
+    padding-top: 120px;
+    background-color: black;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(46, 42, 42);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+    z-index: 1000;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    font-family: Anta, serif;
+  }
+
+  .nav-item {
+    margin-left: 10px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    transition: 0.5s;
+  }
+
+  .nav-link:hover {
+    background-color: rgb(118, 114, 114);
+    color: white;
+  }
+
+  .content {
+    background-color: white;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: anta,serif;
+    margin-top: 80px;
+  }
+
+  
+  
+
+  .section-header p {
+    background-color: white;
+    text-align: center;
+    padding: 10px 50px;
+    font-family: abel, serif;
+    font-size: 30px;
+    width: fit-content;
+    margin: 50px auto;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px 2px rgb(46, 42, 42);
+    
+  }
+
+  .section-header h1{
+    background-color: white;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 100px;
+    font-family: Montserrat, serif;
+    font-size: 40px;
+    border: 2px solid black;
+    width: fit-content;
+    box-shadow: 10px 10px 10px 2px rgb(46, 42, 42)
+    
+  }
+
+
+  .reference-table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    table-layout: fixed;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reference-table th,
+  .reference-table td {
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .reference-table th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #404040;
+  }
+  
+  .reference-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .reference-table tr:hover {
+    background-color: #f1f1f1;
+  }
   
